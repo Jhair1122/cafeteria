@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café de Satipo, Junín</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Cafetería" class="logo-img" onerror="this.style.display='none'">
+            <span class="logo-icon">☕</span>
+            <span class="logo-text">CAFETERIA</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>El aroma de la selva central en cada taza</h1>
+            <p>Descubre los cafés de Satipo, cultivados con tradición y pasión en las alturas de Junín.</p>
+            <a href="#bebidas" class="btn">Ver bebidas</a>
+        </div>
+        <div id="three-container"></div>
+    </section>
+
+    <section id="historia" class="historia">
+        <div class="container">
+            <h2>La Historia del Café</h2>
+            <div class="historia-contenido">
+                <p>Satipo es una zona de ceja de selva en la Región Junín conocida por cultivar café orgánico de gran aroma, situado entre los 1000 y 1500 msnm. Fue constituida el 07 de noviembre de 1965 como una persona jurídica de derecho privado sin fines de lucro, impulsada por el primer presidente del consejo de administración, Don Fermín Peralta Chamorro, inicio con 170 socios fundadores y para 1970 ya contaba con 3,800 socios, llegando a acopiar mas de 80,000 quintales de café.</p>
+                <p>Fue la primera cooperativa cafetalera a nivel nacional y jugó un papel fundamental en la creación de la Central de Café Perú en Lima.</p>
+                <div class="historia-year">1965</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bebidas" class="bebidas">
+        <div class="container">
+            <h2>Nuestras Bebidas</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('orange-cofee.webp');">
+                        <div class="overlay">
+                            <h3>Orang Coffe</h3>
+                        </div>
+                    </div>
+                    <p>Bebida especial preparada con café de Satipo y un toque cítrico de naranja, ofreciendo un sabor dulce, fresco y aromático.</p>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('ice-cofee.jpg');">
+                        <div class="overlay">
+                            <h3>Ice Coffe</h3>
+                        </div>
+                    </div>
+                    <p>Café helado refrescante y suave, ideal para los días cálidos, con una mezcla cremosa y sabor intenso a café.</p>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('frappe-cafe.jpg');">
+                        <div class="overlay">
+                            <h3>Frappé de Café</h3>
+                        </div>
+                    </div>
+                    <p>Frappé cremoso elaborado con café, hielo triturado y crema batida, perfecto para disfrutar una bebida fría y dulce.</p>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('queque-cafe.jpg');">
+                        <div class="overlay">
+                            <h3>Keke de Café</h3>
+                        </div>
+                    </div>
+                    <p>Postre esponjoso preparado con café orgánico de Satipo, con aroma intenso y un sabor suave que acompaña perfectamente cualquier bebida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2>¿Por qué el café peruano es único?</h2>
+            <div class="beneficios-grid">
+                <div class="beneficio">
+                    <div class="icon">🏔️</div>
+                    <h3>Altitud privilegiada</h3>
+                    <p>El café peruano se cultiva principalmente entre los 1200 y 2000 metros de altura, condiciones que permiten una maduración más lenta del grano y un sabor más dulce y aromático.</p>
+                </div>
+                <div class="beneficio">
+                    <div class="icon">🌱</div>
+                    <h3>Sostenibilidad</h3>
+                    <p>Gran parte del café peruano se produce bajo sombra natural y mediante prácticas sostenibles que ayudan a conservar los bosques y la biodiversidad de la selva.</p>
+                </div>
+                <div class="beneficio">
+                    <div class="icon">👐</div>
+                    <h3>Comercio justo</h3>
+                    <p>Muchas cooperativas cafetaleras del Perú trabajan con certificaciones de comercio justo, garantizando mejores ingresos y oportunidades para las familias productoras.</p>
+                </div>
+                <div class="beneficio">
+                    <div class="icon">☕</div>
+                    <h3>Sabor excepcional</h3>
+                    <p>El café peruano destaca por sus notas achocolatadas, cítricas, florales y frutales, además de una acidez equilibrada y aroma intenso reconocido internacionalmente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias" class="noticias">
+        <div class="container">
+            <h2>Noticias de Satipo</h2>
+            <div class="noticias-grid">
+                <a href="https://www.gob.pe/institucion/devida/noticias/1367535-cafetaleros-del-vraem-abren-17-cafeterias-y-fortalecen-la-economia-licita-en-ayacucho-y-junin" target="_blank" class="nota-enlace">
+                <article class="nota">
+                    <span class="fecha">18 MARZO 2026</span>
+                    <h3>Cafetaleros de Satipo abren nuevas cafeterías y fortalecen economía local</h3>
+                    <p>Productores del Vraem impulsaron 17 cafeterías en Junín y Ayacucho, permitiendo que el café de Satipo llegue directamente al consumidor con mayor valor comercial.</p>
+                </article>
+                    </a>
+                <article class="nota">
+                    <span class="fecha">30 ABRIL 2026</span>
+                    <h3>Devida proyecta producir 2000 toneladas de café en Satipo y el Vraem</h3>
+                    <p>Más de 2500 familias cafetaleras de Junín recibirán asistencia técnica y capacitación para mejorar la calidad del café y acceder a mercados especializados.</p>
+                </article>
+                <article class="nota">
+                    <span class="fecha">5 MAYO 2026</span>
+                    <h3>Starbucks destaca trabajo de caficultoras de Satipo en edición internacional</h3>
+                    <p>Más de 70 mujeres productoras de café de Satipo, Junín, participaron en una edición especial distribuida en más de 20 países de América Latina.</p>
+                </article>
+                <article class="nota">
+                    <span class="fecha">10 ABRIL 2026</span>
+                    <h3>Gobierno entrega más de S/31 millones para productores de café en Satipo</h3>
+                    <p>El Midagri financió organizaciones agrarias de Satipo y Chanchamayo para mejorar el acopio, comercialización y exportación de café en Junín.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contacto-info">
+                <p><strong>CAFETERIA</strong></p>
+                <p>📍 Av. Principal, Satipo, Junín</p>
+                <p>📞 +51 999 999 999</p>
+                <p>✉️ @elorodelcafeperuano</p>
+                <div class="social-icons">
+                    <span>🔵 Facebook</span>
+                    <span>📷 Instagram</span>
+                    <span>🐦 Twitter</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 CAFETERIA · Café de Satipo, Junín · Todos los derechos reservados</p>
+    </footer>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.128.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
