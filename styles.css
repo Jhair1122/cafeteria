@@ -508,3 +508,12 @@ footer {
         height: 30px;
     }
 }
+
+.nota-enlace {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.nota-enlace .nota {
+    cursor: pointer;
+}
